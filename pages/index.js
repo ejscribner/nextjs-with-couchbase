@@ -33,7 +33,7 @@ export default function Home({isConnected, rows}) {
 
           <h2>Querying travel-sample to test connection:</h2>
           {rows === null ? (
-              <em className="small center">Note: you must have travel-sample data imported to your couchbase instance and set the TEST_BUCKET_NAME properly for this to populate</em>
+              <em className="small center">Note: you must have travel-sample data imported to your couchbase instance and set the COUCHBASE_BUCKET properly for this to populate</em>
           ) : (<></>)}
           <table style={{textAlign: "left", marginTop: "20px"}}>
             <tr>
